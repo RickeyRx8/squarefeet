@@ -14,5 +14,5 @@ st.number_input('Enter width:', key='width', step=1)
 
 total = square_feet()
 display = st.write(f'{total}sq')
-st.button('Results', display)
+st.button('Results')
 
